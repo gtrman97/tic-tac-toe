@@ -1,5 +1,15 @@
-.container {
-    min-width: 50vw;
-    min-height: 50vh;
+body {
+    margin-top: 20vh;
     border: solid 2x black;
+
+}
+.container {
+    /* margin: auto; */
+    min-width: 20vw;
+    min-height: 20vh;
+    border: solid 5x black;
+}
+h1 {
+    border: solid 5x blue;
+    text-align: center;
 }
