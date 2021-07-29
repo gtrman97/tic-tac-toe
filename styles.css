@@ -1,0 +1,5 @@
+.container {
+    min-width: 50vw;
+    min-height: 50vh;
+    border: solid 2x black;
+}
