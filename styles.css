@@ -7,21 +7,21 @@ body {
     margin: auto;
     max-width: 75vw;
     min-height: 20vh;
-    border: solid 5px red;
+    /* border: solid 5px red; */
 }
 h2 {
-    border: solid 5px blue;
+    /* border: solid 5px blue; */
     text-align: center;
 }
 .game-board {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    border: solid 2px springgreen;
+    /* border: solid 2px springgreen; */
     min-width: 70vw;
     min-height: 50vh;
 }.square {
     border: solid 2px black;
-    max-height: 35%;
-    max-width: 35%;
+    height: 110px;
+    width: 85px;
 }
