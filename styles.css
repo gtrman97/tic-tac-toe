@@ -1,15 +1,21 @@
 body {
+    margin: auto;
     margin-top: 20vh;
     border: solid 2x black;
-
 }
 .container {
-    /* margin: auto; */
-    min-width: 20vw;
-    min-height: 20vh;
-    border: solid 5x black;
+    margin: auto;
+    max-width: 45vw;
+    max-height: 20vh;
+    border: solid 5x red;
 }
 h1 {
     border: solid 5x blue;
     text-align: center;
+}
+.game-board {
+    margin: auto;
+    border: solid 2px springgreen;
+    min-width: 70vw;
+    min-height: 50vh;
 }
