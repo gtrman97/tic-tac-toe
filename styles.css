@@ -1,13 +1,13 @@
 body {
     margin: auto;
     margin-top: 15vh;
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 .container {
     margin: auto;
     max-width: 75vw;
     min-height: 20vh;
-    /* border: solid 5px red; */
+    /* border: solid 2px black; */
 }
 h2 {
     /* border: solid 5px blue; */
@@ -17,6 +17,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    margin-bottom: 7.5%;
     /* border: solid 2px springgreen; */
     min-width: 70vw;
     min-height: 50vh;
@@ -24,4 +25,32 @@ h2 {
     border: solid 2px black;
     height: 110px;
     width: 85px;
+}
+.sq1 {
+    border-top: none;
+    border-left: none;
+}
+.sq2 {
+    border-top: none;
+}
+.sq3 {
+    border-top: none;
+    border-right: none;
+}
+.sq4 {
+    border-left: none;
+}
+.sq6 {
+    border-right: none;
+}
+.sq7 {
+    border-left: none;
+    border-bottom: none;
+}
+.sq8 {
+    border-bottom: none;
+}
+.sq9 {
+    border-bottom: none;
+    border-right: none;
 }
