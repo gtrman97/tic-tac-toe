@@ -26,6 +26,12 @@ h2 {
     height: 110px;
     width: 85px;
 }
+button {
+    min-width: 100%;
+    min-height: 100%;
+    border: none;
+    background-color: white;
+}
 .sq1 {
     border-top: none;
     border-left: none;
