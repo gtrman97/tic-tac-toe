@@ -25,6 +25,10 @@ h2 {
     border: solid 2px black;
     height: 110px;  
     width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
 }
 button {
     min-width: 100%;
