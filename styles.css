@@ -39,7 +39,7 @@ button:active {
     transform: translateY(1px);
     background-color: gray;
 }
-.sq1 {
+#sq1 {
     border-top: none;
     border-left: none;
 }
