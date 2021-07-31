@@ -43,27 +43,27 @@ button:active {
     border-top: none;
     border-left: none;
 }
-.sq2 {
+#sq2 {
     border-top: none;
 }
-.sq3 {
+#sq3 {
     border-top: none;
     border-right: none;
 }
-.sq4 {
+#sq4 {
     border-left: none;
 }
-.sq6 {
+#sq6 {
     border-right: none;
 }
-.sq7 {
+#sq7 {
     border-left: none;
     border-bottom: none;
 }
-.sq8 {
+#sq8 {
     border-bottom: none;
 }
-.sq9 {
+#sq9 {
     border-bottom: none;
     border-right: none;
 }
