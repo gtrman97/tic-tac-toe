@@ -1,8 +1,6 @@
 let moves = 0; 
 
 function move(id) {
-    console.log(id);
-    console.log(3);
     if (moves % 2 == 0) {
         document.getElementById(id).innerHTML = 'X'; 
         moves++; 
@@ -12,6 +10,7 @@ function move(id) {
         moves++; 
     }
 }
-function reset () {
-    document.getElementsByClassName("square").innerHTML = " ";
+function reset() {
+    document.getElementsByClassName("square").innerHTML = "";
+    console.log(5);
 }
