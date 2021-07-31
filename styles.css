@@ -39,6 +39,8 @@ button {
 .reset {
     border: solid 2px black;
     border-radius: 15px;
+    padding: 5%;
+    font-size: large;
 }
 button:hover {
     background-color: gray;
