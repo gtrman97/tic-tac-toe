@@ -12,3 +12,6 @@ function move(id) {
         moves++; 
     }
 }
+function reset () {
+    document.getElementsByClassName("square").innerHTML = " ";
+}
