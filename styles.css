@@ -44,6 +44,7 @@ button {
     border-radius: 15px;
     padding: 5%;
     font-size: large;
+    background-image: linear-gradient(to top, green, lightgreen);
 }
 button:hover {
     background-color: gray;
