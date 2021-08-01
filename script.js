@@ -13,9 +13,10 @@ function move(id) {
 
 }
 function reset() {
+    console.log(document.querySelectorAll(".square")[0]); 
 
     for (let i=0; i<9; i++){
-        document.getElementsByClassName("square")[i].innerHTML = " "; 
+        document.querySelectorAll(".square")[i].innerHTML = " "; 
     }
     
 }
