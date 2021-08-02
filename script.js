@@ -16,7 +16,7 @@ function reset() {
     console.log(document.querySelectorAll(".square")[0]); 
 
     for (let i=0; i<9; i++){
-        document.querySelectorAll(".square")[i].innerHTML = " "; 
+        document.querySelectorAll(".square button")[i].innerHTML = " "; 
     }
     
 }
