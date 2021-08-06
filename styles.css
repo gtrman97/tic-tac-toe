@@ -9,7 +9,7 @@ body {
 .container {
     margin: auto;
     max-width: 75vw;
-    min-height: 20vh;
+    min-height: 100vh;
     /* border: solid 2px black; */
 }
 h2 {
