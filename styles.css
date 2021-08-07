@@ -82,5 +82,7 @@ button:active {
     border-right: none;
 }
 @media (min-width: 667px) {
-    
+    .container {
+        max-width: 45vw;
+    }
 }
