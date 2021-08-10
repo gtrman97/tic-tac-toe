@@ -84,5 +84,11 @@ button:active {
 @media (min-width: 667px) {
     .container {
         max-width: 45vw;
+        /* max-height: 50vh; */
+    }
+    .game-board {
+        flex-direction: column;
+        max-height: 85vh;
+        max-width: 20vw;
     }
 }
