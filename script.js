@@ -11,20 +11,30 @@ function move(id) {
         document.getElementById(id).innerHTML = 'X'; 
         moveCount++; 
         if(id[id.length-1] <= 3) {
-            moves[0][id[id.length-1] - 1 ] = 1;
+            moves[0][id[id.length-1] - 1 ] = 'X';
 
         }
         else if (id[id.length-1] <= 6) {
-            moves[1][id[id.length-1] - 4 ] = 1;
+            moves[1][id[id.length-1] - 4 ] = 'X';
         }
         else {
-            moves[2][id[id.length-1] - 7 ] = 1;
+            moves[2][id[id.length-1] - 7 ] = 'X';
         }
     }
     else {       
         moves.push(0); 
         document.getElementById(id).innerHTML = 'O'; 
         moveCount++; 
+        if(id[id.length-1] <= 3) {
+            moves[0][id[id.length-1] - 1 ] = 'O';
+
+        }
+        else if (id[id.length-1] <= 6) {
+            moves[1][id[id.length-1] - 4 ] = 'O';
+        }
+        else {
+            moves[2][id[id.length-1] - 7 ] = 'O';
+        }
     }
 
 }
