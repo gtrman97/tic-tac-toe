@@ -2,12 +2,8 @@ let moveCount = 0;
 let moves = new Array(3).fill(0).map(() => new Array(3).fill(0));
 
 function move(id) {
-
-    console.log(moves);
     
     if (moveCount % 2 == 0) {
-        // console.log(id[id.length-1]); 
-        moves.push(1); 
         document.getElementById(id).innerHTML = 'X'; 
         moveCount++; 
         if(id[id.length-1] <= 3) {
@@ -22,7 +18,6 @@ function move(id) {
         }
     }
     else {       
-        moves.push(0); 
         document.getElementById(id).innerHTML = 'O'; 
         moveCount++; 
         if(id[id.length-1] <= 3) {
