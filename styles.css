@@ -24,17 +24,18 @@ h2 {
     margin: 5vh;
 }
 .game-board {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin: 2.5%;
     margin-bottom: 15%;
     /* border: solid 2px springgreen; */
-    min-width: 70vw;
-    min-height: 50vh;
+    /* min-width: 70vw; */
+    /* min-height: 50vh; */
 }.square {
     border: solid 2px black;
     height: 20vh;  
-    width: 85px;
+    /* width: 85px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,14 +90,15 @@ button:active {
     border-bottom: none;
     border-right: none;
 }
-@media (min-width: 667px) {
+/* @media (min-width: 667px) {
     .container {
         max-width: 45vw;
-        /* max-height: 50vh; */
     }
     .game-board {
         flex-direction: column;
         max-height: 85vh;
         max-width: 20vw;
+        margin: 5%;
+
     }
-}
+} */
