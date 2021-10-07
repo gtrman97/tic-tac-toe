@@ -28,7 +28,7 @@ h2 {
     grid-template-rows: repeat(3, minmax(0, 1fr));
     grid-template-columns: repeat(3, minmax(0, 1fr));
     margin: 2.5%;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     /* border: solid 2px springgreen; */
     /* min-width: 70vw; */
     /* min-height: 50vh; */
