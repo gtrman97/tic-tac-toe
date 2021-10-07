@@ -26,8 +26,8 @@ h2 {
 .game-board {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    margin-bottom: 7.5%;
+    margin: 2.5%;
+    margin-bottom: 15%;
     /* border: solid 2px springgreen; */
     min-width: 70vw;
     min-height: 50vh;
